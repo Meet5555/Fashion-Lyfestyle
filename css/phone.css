@@ -1,0 +1,105 @@
+@media screen and (max-width:1250px) {
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        margin: 15px auto;
+    }
+    .search .fa{
+        margin: 10px !important;
+    }
+    .home{
+        margin-top: 150px;
+    }
+    .search{
+        margin: 15px auto !important;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .trends-col{
+        margin-top: 20px;
+    }
+    .text{
+        left: 60%;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .banner{
+        width: 85%;
+    }
+    .trends p{
+        width: 60%;
+        margin: auto;
+    }
+    .offer{
+        text-align: center;
+    }
+    .offer img{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .subscribe{
+        margin-top: 50px;
+        padding: 20px;    
+    }
+}
+@media screen and (max-width:600px) {
+    .navbar ul li{
+        margin: 0;
+    }
+    .logo{
+        margin: 15px auto;
+    }
+    .search .fa{
+        margin: 10px !important;
+    }
+    .home{
+        margin-top: 150px;
+    }
+    .text{
+        left: 22%;
+        top: 85%;
+    }
+    .text h1{
+        font-size: 15px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .trends p{
+        width: 90%;
+    }
+    .title{
+        width: 50%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .trends-col{
+        margin-top: 20px;
+    }
+    .search input{
+        width: 160px;
+    }
+    .offer img{
+        width: 200px;
+        height: 300px;
+    }
+    .payment img{
+        width: 250px;
+        cursor: pointer;
+    }
+    .copyright{
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .footer-icons{
+        text-align:center;
+    }
+}
